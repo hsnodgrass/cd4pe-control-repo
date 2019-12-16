@@ -1,5 +1,5 @@
 # CD4PE profile
-class profiles::cd4pe {
+class profile::puppet::cd4pe {
   include ngrok
   ngrok::tunnel { 'cd4pe_8000':
     proto => 'tcp',
